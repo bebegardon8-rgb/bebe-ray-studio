@@ -1,1 +1,17 @@
-{\n  \"name\": \"bebe-ray-studio\",\n  \"version\": \"1.0.0\",\n  \"description\": \"A React and Express application with AI API integration\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"start\": \"node server.js\",\n    \"client\": \"npm start --prefix client\"\n  },\n  \"dependencies\": {\n    \"express\": \"^4.17.1\",\n    \"react\": \"^17.0.2\",\n    \"react-dom\": \"^17.0.2\",\n    \"axios\": \"^0.21.1\",\n    \"some-ai-api\": \"^1.0.0\"\n  },\n  \"devDependencies\": {\n    \"nodemon\": \"^2.0.7\"\n  },\n  \"keywords\": [],\n  \"author\": \"bebegardon8-rgb\",\n  \"license\": \"ISC\"\n}
+{
+  "name": "bebe-ray-studio",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
+}

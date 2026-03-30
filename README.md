@@ -1,37 +1,54 @@
-# AI Music Studio
+# Bebe Ray Studio
 
-Welcome to the AI Music Studio project! This repository houses three innovative studios that utilize artificial intelligence techniques to create and manipulate music in unique ways.
+Bebe Ray Studio is an AI-powered creative platform for music, video, and cover art generation.
 
-## Studios Overview
+## Features
 
-1. **Composition Studio**  
-   The Composition Studio allows users to generate original music compositions based on predefined styles or moods. Users can input parameters that guide the AI in creating pieces tailored to their preferences.
-   
-2. **Mixing Studio**  
-   Here, users can mix and master tracks with the help of AI-assisted tools that suggest optimal settings for levels, EQ, and effects. The Mixing Studio enables a seamless workflow for producing professional-sounding music.
-   
-3. **Performance Studio**  
-   The Performance Studio leverages AI to enhance live performances by providing real-time feedback and adjustments based on the musician's input. This studio focuses on creating an interactive environment that fosters creativity and spontaneity.
+- AI Music Studio
+- AI Music Videos Studio
+- AI Cover Studio
+- Voice cloning service integration
+- React Router navigation
 
 ## Getting Started
 
-To get started with the AI Music Studio, clone this repository and explore each studio's unique capabilities.
+### Install dependencies
 
 ```bash
-git clone https://github.com/bebegardon8-rgb/bebe-ray-studio.git
+npm install
 ```
 
-## Contributing
+### Run locally
 
-Contributions are welcome! Please open an issue or submit a pull request to discuss improvements or feature requests.
+```bash
+npm start
+```
 
-## License
+### Build for production
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```bash
+npm run build
+```
 
----
+## Environment Variables
 
-### Contact
-If you have any questions or comments, feel free to reach out to the maintainers.
+Copy `.env.example` to `.env` and fill in your API keys:
 
-Happy Music Making!
+```env
+OPENAI_API_KEY=your_openai_api_key_here
+ELEVENLABS_API_KEY=your_elevenlabs_api_key_here
+RUNWAY_API_KEY=your_runway_api_key_here
+DALL_E_API_KEY=your_dall_e_api_key_here
+```
+
+## Project Structure
+
+```text
+src/
+├── App.jsx
+├── App.css
+├── index.js
+├── components/
+├── pages/
+└── services/
+```
